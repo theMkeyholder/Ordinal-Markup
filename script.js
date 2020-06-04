@@ -456,7 +456,7 @@ function render() {
   get("sacrDM").innerHTML="Upgrade with<br>" + beautify(1e6*5**game.sing.dm) + "<br>Dark Manifolds"
   get("singFBtext").textContent="You are currently getting " + beautify(getFBps()) + " Factor Boosts per second"
   get("sacrNw").innerHTML="Upgrade with<br>" + beautifyEN(1e20*100**game.sing.nw) + " ℵ<sub>ω</sub>"
-  get("singfunlocktext").innerHTML=(getSingLevel() >= 20) ? "" : get("singfunlock").innerHTML
+  get("singfunlocktext").innerHTML=(getSingLevel() >= 20) ? "" : get("singfunlocktext").innerHTML
 }
 
 function dup(n,spectate=0) {
